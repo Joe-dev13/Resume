@@ -1,0 +1,54 @@
+.name {
+    border-style: solid;
+    border-color: black;
+    border: 100px;
+    border-radius: 20%;
+    /* background-color: rgb(238, 255, 254); */
+    box-sizing: border-box;
+    box-shadow: transparent;
+    text-align: right;
+    padding: 20px;
+}
+
+.photo {
+    width: fit-content;
+    margin: auto;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+@keyframes myanimation{
+    0%{left: 0px;top: 0px;}
+    25%{left: 300px;top: 0px;}
+    50%{left: 500px;top: 0px;}
+    75%{left: 800px;top: 0px;}
+    100%{left: 1000px;top: 0px;}
+}
+
+.intro {
+    padding: 20px;
+    border-style: solid;
+    border: 100px;
+    border-radius: 50%;
+    /* background-color: rgb(238, 255, 254); */
+    box-shadow: transparent;
+    display: inline;
+}
+
+.workHistroy {
+    border-style: solid;
+    border: 100px;
+    border-radius: 20%;
+    /* background-color: rgb(238, 255, 254); */
+    box-sizing: border-box;
+    box-shadow: transparent;
+    text-align: center;
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+}
